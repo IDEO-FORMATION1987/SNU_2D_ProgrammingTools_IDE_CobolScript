@@ -1,0 +1,77 @@
+```html
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IDEO-Formation</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo">IDEO-Formation</div>
+        <nav>
+            <ul>
+                <li><a href="#accueil">Accueil</a></li>
+                <li><a href="#formations">Formations</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#apropos">À Propos</a></li>
+                <li><a href="#compte">Mon Compte</a></li>
+                <li><a href="#login">Login / Register</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="accueil">
+        <h1>Formation Complète en Systèmes d’Information Géographique (SIG) avec QGIS</h1>
+        <p>Découvrez le pouvoir des systèmes d’information géographique (SIG) et maîtrisez l’outil incontournable : QGIS, un logiciel open source puissant et accessible.</p>
+        <button onclick="window.location.href='#formations'">Acheter Maintenant</button>
+    </section>
+
+    <section id="formations">
+        <h2>Nos Formations</h2>
+        <div class="formation">
+            <h3>Formation QGIS-SIG</h3>
+            <p>Analyse géospatiale avancée, création de cartes interactives, approche 100% pratique.</p>
+            <p>Prix : 3500 CFA</p>
+            <button onclick="window.location.href='#commande'">Acheter Maintenant</button>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contactez-nous</h2>
+        <form>
+            <label for="name">Nom:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit">Envoyer</button>
+        </form>
+    </section>
+
+    <section id="apropos">
+        <h2>À Propos de IDEO-Formation</h2>
+        <p>IDEO-Formation est une plateforme dédiée à la formation en systèmes d’information géographique (SIG) avec QGIS. Nous offrons des formations accessibles à tous, sans prérequis en SIG.</p>
+    </section>
+
+    <section id="compte">
+        <h2>Mon Compte</h2>
+        <form>
+            <label for="login-email">Email:</label>
+            <input type="email" id="login-email" name="login-email" required>
+            <label for="login-password">Mot de passe:</label>
+            <input type="password" id="login-password" name="login-password" required>
+            <button type="submit">Se Connecter</button>
+        </form>
+        <p>Pas encore de compte ? <a href="#register">Créer un compte</a></p>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 IDEO-Formation. Tous droits réservés.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
